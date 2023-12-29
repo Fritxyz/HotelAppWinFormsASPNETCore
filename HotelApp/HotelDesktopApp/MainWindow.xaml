@@ -1,0 +1,76 @@
+﻿<Window x:Class="HotelDesktopApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelDesktopApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" FontSize="20" FontFamily="Segoe UI">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" FontSize="28">Search For Guest</TextBlock>
+        <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
+            <TextBox x:Name="lastNameText" Width="200" Margin="5"></TextBox>
+            <Button x:Name="searchForGuest" Margin="5" Padding="5" Click="searchForGuest_Click">Search</Button>
+        </StackPanel>
+
+        <ListBox x:Name="resultsList" Grid.Row="2" Grid.Column="0" Margin="5 20 5 5" Width="300" ItemsSource="{Binding}" ScrollViewer.VerticalScrollBarVisibility="Auto" Height="250">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"></ColumnDefinition>
+                            <ColumnDefinition Width="auto"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Orientation="Vertical" Grid.Row="0">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontWeight="Bold" Margin="5">Reservation: </TextBlock>
+                                <TextBlock Text="{Binding FirstName}"></TextBlock>
+                                <TextBlock Text="{Binding LastName}"></TextBlock>
+                            </StackPanel>
+
+                           
+
+                            <StackPanel Orientation="Horizontal" Grid.Row="1">
+                                <TextBlock  FontWeight="Bold" Margin="5">Room:</TextBlock>
+                                <TextBlock Text="{Binding Title}" Margin="5"></TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" Grid.Row="2">
+                                <TextBlock  FontWeight="Bold" Margin="5">Room No.:</TextBlock>
+                                <TextBlock Text="{Binding RoomNumber}" Margin="5"></TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" Grid.Row="3">
+                                <TextBlock  FontWeight="Bold" Margin="5">Total Cost</TextBlock>
+                                <TextBlock Text="{Binding TotalCost, StringFormat='c'}" Margin="5"></TextBlock>
+                            </StackPanel>
+
+                            <Button Margin="5" Padding="10" Grid.Row="0" Grid.Column="1" Grid.RowSpan="4"  VerticalAlignment="Center" x:Name="checkInUser" Click="checkInUser_Click">Check In</Button>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
