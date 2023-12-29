@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Bookings] (Table)
+       [dbo].[Guests] (Table)
+       [dbo].[Rooms] (Table)
+       [dbo].[RoomTypes] (Table)
+       [dbo].[FK_Bookings_Rooms] (Foreign Key)
+       [dbo].[FK_Bookings_Guests] (Foreign Key)
+       [dbo].[FK_Rooms_RoomsType] (Foreign Key)
+
+** Supporting actions
+
+A project which specifies SQL Server 2022 or Azure SQL Database Managed Instance as the target platform may experience compatibility issues with SQL Server 2019.
+

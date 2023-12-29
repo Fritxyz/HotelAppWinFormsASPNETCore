@@ -1,0 +1,27 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column EndDate in table [dbo].[Bookings] is currently  DATETIME2 (7) NOT NULL but is being changed to  DATE
+         NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  DATE
+         NOT NULL.
+       The type for column StartDate in table [dbo].[Bookings] is currently  DATETIME2 (7) NOT NULL but is being changed to 
+         DATE NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type 
+         DATE NOT NULL.
+
+** User actions
+     Rename
+       [dbo].[FK_Rooms_RoomTypes] (Foreign Key)
+     Alter
+       [dbo].[Bookings] (Table)
+
+** Supporting actions
+
+A project which specifies SQL Server 2022 or Azure SQL Database Managed Instance as the target platform may experience compatibility issues with SQL Server 2019.
+The type for column EndDate in table [dbo].[Bookings] is currently  DATETIME2 (7) NOT NULL but is being changed to  DATE NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  DATE NOT NULL.
+The type for column StartDate in table [dbo].[Bookings] is currently  DATETIME2 (7) NOT NULL but is being changed to  DATE NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  DATE NOT NULL.
+

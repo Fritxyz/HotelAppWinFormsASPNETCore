@@ -1,0 +1,10 @@
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppDB\bin\Debug\HotelAppDB.dacpac
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppDB\bin\Debug\HotelAppDB.dll
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppDB\bin\Debug\HotelAppDB.pdb
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppDB\obj\Debug\HotelAppDB.sqlproj.AssemblyReference.cache
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppDB\obj\Debug\HotelAppDB.dll
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppDB\obj\Debug\HotelAppDB.pdb
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppDB\obj\Debug\Model.xml
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppDB\obj\Debug\refactor.xml
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppDB\obj\Debug\postdeploy.sql
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppDB\obj\Debug\predeploy.sql
