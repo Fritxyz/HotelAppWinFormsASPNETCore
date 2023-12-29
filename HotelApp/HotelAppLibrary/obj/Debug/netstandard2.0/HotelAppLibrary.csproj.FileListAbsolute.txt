@@ -1,0 +1,10 @@
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppLibrary\bin\Debug\netstandard2.0\HotelAppLibrary.deps.json
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppLibrary\bin\Debug\netstandard2.0\HotelAppLibrary.dll
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppLibrary\bin\Debug\netstandard2.0\HotelAppLibrary.pdb
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppLibrary\obj\Debug\netstandard2.0\HotelAppLibrary.csproj.AssemblyReference.cache
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppLibrary\obj\Debug\netstandard2.0\HotelAppLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppLibrary\obj\Debug\netstandard2.0\HotelAppLibrary.AssemblyInfoInputs.cache
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppLibrary\obj\Debug\netstandard2.0\HotelAppLibrary.AssemblyInfo.cs
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppLibrary\obj\Debug\netstandard2.0\HotelAppLibrary.csproj.CoreCompileInputs.cache
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppLibrary\obj\Debug\netstandard2.0\HotelAppLibrary.dll
+D:\Programming Outputs\C# Mastercourse\Section 31 - Hotel ManagementApp\HotelApp\HotelAppLibrary\obj\Debug\netstandard2.0\HotelAppLibrary.pdb
